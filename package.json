@@ -1,0 +1,36 @@
+{
+  "name": "express-jwt-auth",
+  "version": "0.0.1",
+  "description": "JWT based authentication using Express and MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evg1n/express-jwt-auth.git"
+  },
+  "keywords": [
+    "express",
+    "jwt",
+    "auth",
+    "token"
+  ],
+  "author": "evg1n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evg1n/express-jwt-auth/issues"
+  },
+  "homepage": "https://github.com/evg1n/express-jwt-auth#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.2"
+  }
+}
